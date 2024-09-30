@@ -1,0 +1,129 @@
+/* Nama File : style.css
+Autor : Sehun 
+Creatdeat : 17/09/2024 10:54 */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: burlywood;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+nav ul li {
+    display:inline-block;
+    margin: 7px;
+    
+}
+nav ul li .item:hover {
+   background-color: blanchedalmond;
+   border-radius: 7px;
+   padding:  5px;
+   font-size: 18px;
+   
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+
+}
+nav ul li .logo {
+    margin-right: 120px;
+    font-weight: bold;
+    font-size: larger;
+}
+nav ul li .login {
+    margin-left: 800px;
+}
+footer {
+    padding: 10px;
+    text-align: center;
+    margin-top: 5px;
+    color: black;
+    background-color: burlywood;
+}
+
+
+#sehun {
+    background-color: blanchedalmond;
+    background: linear-gradient(0deg, blanchedalmond);
+    
+    text-align: center;
+    padding: 25px;
+}
+.sehun-img img {
+    width: 300px;
+    height: 300px;
+}
+.sehun-text{
+    color: black;
+    margin-bottom: 20px;
+}
+.sehun-text h2 {
+    margin-bottom: 0;
+}
+#about-me{
+    background-color: burlywood;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 17px;
+    border-radius: 20px;
+    margin-top: -40px;
+}
+#projects{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.kotak {
+    width: 150px;
+    display: inline-block;
+    margin: 5px;
+    padding: 5%;
+    border: 1px solid;
+    background-color: burlywood;
+}
+#client {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.box-item{
+    display: inline-block;
+}
+.box-item img {
+    height: 70px;
+    width: 150px;
+    border-radius: 7px;
+    border: 2px dotted;
+}
+
+/* responsive */
+@media (max-width: 767.98px){
+#about-me{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+nav ul li .logo {
+    margin-right: 7px;
+    font-weight: bold;
+    font-size: 14px;
+}
+nav ul li .login {
+    margin-left: 10px;
+}
+#projects{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#client {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
